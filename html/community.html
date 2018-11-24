@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米官网手机社区 - 小米手机旗下网站</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/community.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="head">
+     <div class="header">
+         <img src="../images/logo_cn.png" alt="">
+         <div class="qr">
+          <span>客户端</span>
+         </div>
+         <div class="menu">
+          <ul>
+              <li>资讯</li>
+              <li>论坛</li>
+              <li>版块</li>
+              <li>酷玩帮</li>
+              <li>摄影馆</li>
+              <li>橙色跑</li>
+              <li>同城会</li>
+              <li>小米商城</li>
+              <li>更多<i class="icon"></i></li>
+              <li><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-sticky-note-o" aria-hidden="true"></i></li>
+          </ul>
+         </div>
+         <div class="login">
+         <a href="login.html">登录</a>
+         <span>|</span>
+         <a href="registe.html">注册</a>
+         </div>
+     </div>
+    </div>
+    <div class="content">
+    <div class="wrap">
+        <ul>
+            <li><a href=""><img src="../images/20181012044215113.jpeg" alt=""></a></li>
+            <li><a href=""><img src="../images/20181012055500213.jpg" alt=""></a></li>
+            <li><a href=""><img src="../images/20181012120721285.png" alt=""></a></li>
+            <li><a href=""><img src="../images/20181015024533399.jpg" alt=""></a></li>
+        </ul>
+        <ol>
+            <li class="current">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ol>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    </div>
+<div class="container">
+
+</div>
+</body>
+</html>
+<script>
+    $(function (){
+        var index=0;
+        $(".wrap ol li").mouseover(function(){
+            $(this).addClass("current");
+        })
+        $(".wrap ol li").mouseout(function(){
+            $(this).removeClass("current");
+        })
+        $(".wrap ol li").click(function(){
+            var index=$(this).index();
+            $(".wrap ul li").eq(index).fadeIn().siblings().fadeOut();
+            $(this).addClass("current").siblings().removeClass("current");
+    })
+        $(".wrap .left").click(function(){
+            if(index<0){
+                index=3;
+            }
+            index--;
+            $(".wrap ul li").eq(index).fadeIn().siblings().fadeOut();
+            $(".wrap ol li").eq(index).addClass("current").siblings().removeClass("current");
+        })
+        $(".wrap .right").click(function(){
+            index++;
+            if(index>3){
+                index=0;
+            }
+            $(".wrap ul li").eq(index).fadeIn().siblings().fadeOut();
+            $(".wrap ol li").eq(index).addClass("current").siblings().removeClass("current");
+        })
+        function autoplay(){
+            index++;
+            if(index>3){
+                index=0;
+            }
+            $(".wrap ul li").eq(index).fadeIn().siblings().fadeOut();
+            $(".wrap ol li").eq(index).addClass("current").siblings().removeClass("current");
+        }
+        var timer=setInterval(autoplay,3000);
+        $(".wrap").mouseover(function(){
+            clearInterval(timer);
+        })
+        $(".wrap").mouseout(function(){
+            timer=setInterval(autoplay,3000);
+        })
+    })
+</script>

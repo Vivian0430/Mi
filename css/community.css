@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.head{
+    position: relative;
+    height:50px;
+    width:100%;
+    background: rgba(0,0,0,0.67);
+}
+.head .header{
+    width:990px;
+    height:50px;
+    margin:0 auto;
+}
+.head .header .qr{
+    position: absolute;
+    left: 352px;
+    top: 0;
+    width: 70px;
+    font-size: 14px;
+    background: url("../images/header_mobile.png") 0 center no-repeat;
+    color: #ff7e3e;
+    line-height: 50px;
+}
+.head .header .qr span{
+    margin-left: 15px;
+}
+.head .header .menu{
+    line-height: 50px;
+    height:50px;
+    width:594px;
+    color: #fff;
+    position: absolute;
+    left: 433px;
+    top: 0px;
+    font-size: 16px;
+}
+.head .header .menu ul {
+    list-style: none;
+    height: 50px;
+    width: 594px;
+}
+.head .header .menu ul li{
+    float:left;
+    margin:0 8px;
+}
+.head .header .menu ul li .icon{
+    background: url("../images/header_icon.png") no-repeat;
+}
+.head .header .login{
+    color: #fff;
+    position: absolute;
+    left:1090px;
+    top:0;
+    line-height: 50px;
+    height:50px;
+}
+.head .header .login a:hover{
+    color: #ff6700;
+}
+.content{
+    position: relative;
+    top:20px;
+    width:960px;
+    height:350px;
+    margin:auto;
+    overflow: hidden;
+}
+
+.content .wrap{
+    width:960px;
+    height:350px;
+}
+.content .wrap .left{
+    width:41px;
+    height:69px;
+    background-image: url("../images/icon-slides.png");
+    background-position: 83px 0;
+    position: absolute;
+    left:0px;
+    top:175px;
+    cursor: pointer;
+}
+.content .wrap .right{
+    width:41px;
+    height:69px;
+    background-image: url("../images/icon-slides.png");
+    background-position: 42px 0;
+    position: absolute;
+    right:0px;
+    top:175px;
+    cursor: pointer;
+}
+.content ul{
+    list-style: none;
+    height:350px;
+    width:960px;
+}
+.content ul li{
+    float: left;
+}
+.content ul li img{
+    height:350px;
+    width:960px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.content ol {
+    list-style: none;
+    display: block;
+    text-align: right;
+    position: relative;
+    float: left;
+    bottom:50px;
+    left:750px;
+}
+.content ol li{
+    float: left;
+    background-color: #666;
+    width:30px;
+    height:20px;
+    text-align: center;
+    margin:7px;
+    cursor: pointer;
+}
+.content ol .current{
+    background-color: rgba(255,255,255,.3);
+    border-color: #666;
+}
+.container{
+    width:960px;
+    margin:auto;
+    position: relative;
+    top:60px;
+}
+.container img{
+    width:100%;
+}

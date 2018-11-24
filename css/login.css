@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+button, input, select, textarea {
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+.logo{
+    width:100%;
+    height:98px;
+}
+.logo .middle{
+    width:1130px;
+    height:98px;
+    margin:0 auto;
+}
+.content{
+    width:100%;
+    height:528px;
+    background-image: url(../images/login01.jpg);
+    background-position:top center;
+}
+.content .mainbox{
+    width:410px;
+    height:498px;
+    background-color: #fff;
+    position: relative;
+    top:20px;
+    left:850px;
+}
+.content .mainbox .box{
+    width:410px;
+    height:416px;
+    position: absolute;
+    top:82px;
+}
+.content .mainbox .panel{
+    width:410px;
+    height:82px;
+}
+.content .mainbox .panel .nav_tabs{
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+.content .mainbox .panel .nav_tabs a{
+    text-decoration: none;
+}
+.content .mainbox .panel .nav_tabs .link_right{
+    color: #f56600;
+}
+.content .mainbox .panel .nav_tabs .link_left{
+    color: #666;
+}
+.content .mainbox .panel .nav_tabs .link_left:hover{
+    color: #f56600;
+}
+.content .mainbox .panel .nav_tabs span{
+    font-size: 26px;
+    margin: 0 35px 0 42px;
+}
+.content .mainbox .box form{
+    height:226px;
+    width:348px;
+    margin:0 auto;
+    position: relative;
+    top:10px;
+}
+
+.content .mainbox .box form #username {
+    margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+    width:318px;
+    height:24px;
+    outline: none;
+    padding: 13px 16px 13px 14px;
+}
+.content .mainbox .box form #pwd {
+    margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+    width:318px;
+    height:24px;
+    outline: none;
+    padding: 13px 16px 13px 14px;
+}
+.content .mainbox .box form #warning{
+    width:100%;
+    height: 20px;
+    color: #f56700;
+    line-height: 20px;
+}
+.content .mainbox .box form #btn {
+    background-color: #ef5b00;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: 0 none;
+    outline: none;
+}
+.content .mainbox .box .other{
+    width:348px;
+    height:19px;
+    font-size: 14px;
+    margin:0 auto;
+}
+.content .mainbox .box .other a{
+    text-decoration:none;
+    color: #999;
+}
+.content .mainbox .box .other .one{
+    float: left;
+    color: #ef5b00;;
+}
+.content .mainbox .box .other .custom{
+    float: right;
+    color: #999
+}
+.content .mainbox .box .other .custom span{
+    position: relative;
+    bottom:1px;
+}
+.content .mainbox .box .other .custom a:hover{
+    color: #ef5b00;
+}
+.content .mainbox .box .other_login_type{
+    padding-top: 0;
+    position: absolute;
+    bottom:20px;
+    width: 100%;
+    height:65px;
+}
+.content .mainbox .box .other_login_type fieldset{
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    border-bottom:0;
+    border-left:0;
+    border-right:0;
+    width:348px;
+    margin: 0 auto;
+ }
+.content .mainbox .box .other_login_type fieldset legend{
+    color: #bbb;
+    text-align: center;
+    font-size: 14px;
+    margin:0 auto;
+}
+.content .mainbox .box .other_login_type .link{
+    width:348px;
+    height:36px;
+    margin:0 auto;
+}
+.content .mainbox .box .other_login_type .link .is{
+    margin:0 auto;
+    width:268px;
+}
+.content .mainbox .box .other_login_type .link .is i{
+    margin:0 17px;
+    width:30px;
+    height:30px;
+    color: #fff;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.content .mainbox .box .other_login_type .link .is #qq{
+    background-color: #0288d1;
+}
+.content .mainbox .box .other_login_type .link .is #weibo{
+    background-color:  #d32f2f;
+}
+.content .mainbox .box .other_login_type .link .is #face{
+    background-color: #0ae;
+}
+.content .mainbox .box .other_login_type .link .is #weixin{
+    background-color: #00d20d;
+}
+.content .mainbox .erweima{
+    width:410px;
+    height:416px;
+    position: absolute;
+    top:82px;
+    display: none;
+    text-align: center;
+}
+.footer{
+    background: #fff;
+    margin-top: 100px;
+    position: relative;
+    z-index: 4;
+    height: 80px;
+    text-align: center;
+    color: #757575;
+}
+.linkarea{
+    text-align: center;
+}
+.linkarea ul{
+    list-style: none;
+    height:16px;
+    width:100%;
+}
+.linkarea ul li{
+    height:16px;
+    font-size: 14px;
+    float: left;
+    line-height:16px;
+    /*margin: 0 auto;*/
+    position: relative;
+    left:523px;
+}
+.linkarea ul li:nth-child(2n+1){
+    cursor: pointer;
+}
+.linkarea ul li:first-child{
+    color: black;
+}
+.linkarea ul li:nth-child(2n+1):hover{
+    color: #000;
+}
+.linkarea ul .sep{
+    margin: 0 .8em;
+    position: relative;
+    bottom:1px;
+}
+.footer p{
+    position: relative;
+    top:10px;
+    color: #757575;
+}
+.footer p a{
+    text-decoration: none;
+    color: #757575;
+}
+.footer p a:hover{
+    color:black;
+}

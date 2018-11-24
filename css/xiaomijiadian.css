@@ -1,0 +1,234 @@
+/*版心*/
+.content1{
+	margin: 0 auto;
+	width: 1226px;
+}
+
+/*家电*/
+a{
+	target:_blank;
+}
+.jiadian .jiadianbottom ul li{
+	transition: all 0.2s linear;
+}
+.jiadian .jiadianbottom ul li:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+	transform: translateY(-2px);
+}
+
+.jiadian_active{
+	color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+    cursor: pointer;
+    transition: border-color .5s;
+}
+ul li{
+	list-style-type: none;
+}
+.jiadian .jiadiantop img{
+	height: 120px;
+}
+.jiadiantop{
+	    margin: 28px 0 22px;
+}
+
+.jiadian .jiadianbottom{
+	overflow:auto;
+	height:686px;
+	position: relative;
+}
+.jiadian .left{
+	width: 234px;
+	height: 614px;
+	float: left;
+}
+.clear {
+    clear: both;
+}
+
+.dianfanguo img{
+	width: 234px;
+	height: 300px;
+}
+.saodirobot img{
+	width: 234px;
+	height: 300px;
+}
+.saodirobot{
+	position: absolute;
+	top:314px;
+}
+a{
+	text-decoration: none;
+}
+.jiadiannav{
+	position: relative;
+	height: 58px;
+}
+.jiadiannav ul{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin: 0;
+    padding: 16px 0 0;
+    list-style-type: none;
+    font-size: 16px;
+
+}
+.jiadiannav ul li img{
+	float: left;
+}
+.jiadiannav ul li{
+	margin: 0 0 0 30px;
+	display: inline-block;
+}
+.jiadiannav ul li a{
+	color: black;
+}
+.jiadian .right{
+	width: 992px;
+	height: 614px;
+	float: left;
+}
+.jiadian .right ul li img{
+	width: 150px;
+	height: 150px;
+}
+.jiadian .right ul li{
+	width: 234px;
+	height: 246px;
+	background: white;
+	margin-left: 14px;
+    margin-bottom: 14px;
+    position: relative;
+	float: left;
+	padding: 34px 0 20px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jiadian .right .last{
+	position: relative;
+	width: 234px;
+	height: 89px;
+}
+.jiadian .right .last1{
+	display: block;
+    font-size: 18px;
+    color: #333;
+}
+.jiadian .right .last1 i{
+    position: absolute;
+    right: 35px;
+    top: 48px;
+    width: 48px;
+    height: 48px;
+}
+.jiadian .right .last1 p{
+	display: block;
+    margin: 10px 120px -5px 30px;
+    font-size: 18px;
+    color: #333;
+}
+.jiadian .right .last1 p span{
+	display: block;
+    font-size: 12px;
+    color: #757575;
+    margin:0px 0px -5px -50px;
+}
+
+.jiadian .right .last2 h3 a{
+	display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.jiadian .right .last2 h3{
+	margin: 10px 110px 5px 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.jiadian .right .last2 div{
+	position: absolute;
+	right: 20px;
+    top: 32px;
+    width: 80px;
+	height: 80px;
+}
+
+.jiadian .right .last2 p{
+	margin: 10px 110px 0 30px;
+    font-size: 12px;
+    color: #ff6700;
+}
+.jiadian .right .last2 img{
+	width: 80px;
+	height: 80px;
+}
+.jiadianbottom .right  li a{
+	color: black;
+	display: block;
+	text-align: center;
+}
+.jiadian .right ul li div{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 18px;
+}
+.jiadian .right ul li .head200{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -32px;
+	width: 64px;
+	height: 20px;
+	background: rgb(229,57,53);
+	color: white;
+	font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+.jiadian .right ul li .newproducts{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -32px;
+	width: 64px;
+	height: 20px;
+	background: rgb(131,196,78);
+	color: white;
+	font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+.jiadian .right ul li a p{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.jiadian .right ul li a span{
+	color: #ff6700;
+	display: block;
+	margin-top: 10px;
+
+}
+.jiadian .right ul li a span del{
+	color: #b0b0b0;
+}
+.jiadian .right ul li .evaluate{
+	text-align: center;
+	height: 60px;
+	line-height:25px;
+	padding: 8px 30px;
+	width: 174px;
+	background: rgb(255,103,0);
+	color: white;
+	position: absolute;
+    bottom:-94px;
+    left: 0;
+    overflow: hidden;
+    font-size: 12px;
+    opacity:0;
+}
+.jiadianbottom .right .rightright{
+	display: none;
+}

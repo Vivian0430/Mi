@@ -1,0 +1,290 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+    color:#757575;
+}
+ul{
+    list-style: none;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+    color: #9d9d9d;
+}
+a{
+    text-decoration: none;
+    color:#757575;
+}
+.registe .layout{
+    width: 854px;
+    margin: 0 auto;
+}
+.registe_title {
+    width: 100%;
+}
+.registe_title .registe_logo{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    background-color: #ff6700;
+    margin-bottom: 40px;
+    margin-top:20px;
+}
+.registe_content {
+}
+.registe_content h3{
+    font-size:30px;
+    font-weight: 400;
+    color:#333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.registe_message{
+    margin:0 auto;
+    width: 332px;
+    height: 306px;
+}
+.registe_message h4{
+    margin-top: 10px;
+    color: #333;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.country,.telphone,.commit{
+    width: 100%;
+    height: 42px;
+    border:1px solid #e8e8e8;
+}
+.country{
+    position: relative;
+    cursor: pointer;
+}
+.country span{
+    margin-left: 15px;
+    line-height: 42px;
+}
+
+
+.country i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #e8e8e8;
+    color: #e8e8e8;
+    z-index: 999;
+}
+
+.country .country_content{
+    position: absolute;
+    top: 42px;
+    left:-1px;
+    width: 334px;
+    height: 270px;
+    overflow: auto;
+    z-index: 999;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: none;
+}
+.country_content .content_search{
+    height: 48px;
+    width: 99%;
+    box-sizing: border-box;
+
+}.content_search input{
+    height: 34px;
+    width: 90%;
+     margin: 10px 5%;
+    border: 1px solid #e8e8e8;
+}
+
+ .search_content{
+     position: absolute;
+     top:58px;
+     left: 0;
+     width: 99%;
+     z-index: 1000;
+     background-color: #ffffff;
+     border: 1px solid #fff;
+ }
+.search_li{
+    padding-left: 4px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.country_content .content_code{
+    height: 500px;
+    width: 99%;
+}
+
+.content_code h4{
+    padding-left: 4px;
+    width: 100%;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fcdecc;
+    color: #ff6700;
+}
+.content_code div{
+    width: 100%;
+    box-sizing: border-box;
+    color: #000000;
+}
+.content_code ul{
+    list-style: none;
+}
+
+.content_code ul li{
+    padding-left: 4px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.telphone{
+    position: relative;
+}
+
+.telphone .telphone_fl{
+    float: left;
+    width: 74px;
+    height: 100%;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+}
+.telphone .telphone_fl i{
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.telphone .telphone_fr{
+    float: left;
+    width: 257px;
+    height: 100%;
+    border-left: 1px solid #e8e8e8;
+}
+.telphone .telphone_fr input{
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e8e8e8;
+    outline: none;
+}
+
+
+.telphone .telphone_content{
+    position: absolute;
+    top: 42px;
+    left:-1px;
+    width: 334px;
+    height: 270px;
+    overflow: auto;
+    z-index: 999;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: none;
+
+}
+.telphone_content .telphone_search{
+    height: 48px;
+    width: 99%;
+    box-sizing: border-box;
+
+}
+.telphone_search input{
+     height: 34px;
+     width: 90%;
+     margin: 10px 5%;
+     border: 1px solid #e8e8e8;
+ }
+.telphone_content .telphone_code{
+    height: 500px;
+    width: 99%;
+}
+
+.telphone_code h4{
+    padding-left: 4px;
+    width: 99%;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fcdecc;
+    color: #ff6700;
+}
+.telphone_code div{
+    width: 100%;
+    box-sizing: border-box;
+    color: #000000;
+}
+.telphone_code ul{
+    list-style: none;
+}
+.telphone_code ul li{
+    padding-left: 4px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+.registe_message p{
+    color: #333;
+    padding: 5px 0 10px 0;
+}
+.registe_message .telphone{
+    margin-bottom: 30px;
+}
+.registe_message  .commit{
+    background-color: #ff6700;
+}
+.registe_message  .commit input{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ff6700;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.msg{
+    margin: 40px 0;
+    text-align: center;
+}
+.msg i{
+    color: #ff6700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.msg a{
+    color: #333333;
+    font-weight: 700;
+}
+
+
+.registe_footer{
+    text-align: center;
+}
+

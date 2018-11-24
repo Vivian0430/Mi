@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米帐号 - 登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/tab.js"></script>
+    <script src="../js/test.js"></script>
+</head>
+<body>
+<div class="logo">
+    <div class="middle">
+    <img src="../images/mistore_logo.png" alt="">
+    </div>
+</div>
+<div class="content">
+ <div class="mainbox">
+
+     <div class="panel">
+         <div class="nav_tabs">
+             <a href="" class="link_right">账号登录</a>
+             <span>|</span>
+             <a href="" class="link_left">扫码登录</a>
+         </div>
+     </div>
+     <div class="box">
+     <form onsubmit="return checkuname()" action="xiaomi.html">
+         <input type="text" id="username" placeholder="邮箱/手机号码/小米ID" name="username">
+         <input type="password" id="pwd" placeholder="密码" name="password">
+         <div id="warning"></div>
+         <input type="submit" id="btn" value="登录">
+     </form>
+         <div class="other">
+             <span class="one">手机短信登录/注册</span>
+             <div class="custom">
+                 <a href="registe.html">立即注册</a>
+                 <span>|</span>
+                 <a href="">忘记密码？</a>
+             </div>
+         </div>
+         <div class="other_login_type">
+             <fieldset>
+                 <legend align="center">其他登录方式</legend>
+             </fieldset>
+             <div class="link">
+                 <div class="is">
+                     <i class="fa fa-qq" aria-hidden="true" id="qq"></i>
+                     <i class="fa fa-weibo" aria-hidden="true" id="weibo"></i>
+                     <i class="fa fa-facebook" aria-hidden="true" id="face"></i>
+                     <i class="fa fa-weixin" aria-hidden="true" id="weixin"></i>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="erweima">
+         <img src="../images/erweima.PNG" alt="">
+     </div>
+ </div>
+</div>
+<div class="footer">
+<div class="linkarea">
+    <ul>
+        <li>简体</li>
+        <li class="sep">|</li>
+        <li>繁体</li>
+        <li class="sep">|</li>
+        <li>English</li>
+        <li class="sep">|</li>
+        <li>常见问题</li>
+        <li class="sep">|</li>
+        <li>隐私政策</li>
+    </ul>
+</div>
+    <p class="info">小米公司版权所有-京ICP备10046444-<a href=""><span><img src="../images/ghs.png" alt=""></span>京公网安备11010802020134号</a>-京ICP证110507号</p>
+</div>
+</body>
+</html>
